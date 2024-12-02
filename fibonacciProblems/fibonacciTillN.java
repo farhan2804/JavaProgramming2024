@@ -20,10 +20,9 @@ public class fibonacciTillN {
         while (b <= maxNumber) {
             System.out.print(" " + b);
             int c = a + b; // Calculate the next number
-            a = b;           // Update 'a' to the next number
-            b = c;        // Update 'b' to the new next number
+            a = b; // Update 'a' to the next number
+            b = c; // Update 'b' to the new next number
         }
-
         scanner.close();
     }
 }
