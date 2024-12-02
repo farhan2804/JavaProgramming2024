@@ -2,10 +2,9 @@ import java.util.HashMap;
 
 class countSubarraysK {
     public static void main(String args[]) {
-        int arr[] = { 1, 1, 1};
+        int arr[] = { 1, 1, 1 };
         int k = 2;
         System.out.println("Number of Subarray's = " + countSubarray(arr, k));
-
     }
 
     public static int countSubarray(int[] nums, int k) {
